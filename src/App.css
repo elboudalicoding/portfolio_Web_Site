@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+ 
+#head {
+  color: white; /* Couleur du texte */ 
+  font-size: 2.5em; /* Taille de la police */
+   text-align: center; /* Aligner à gauche */
+      font-family: 'Arial', sans-serif; /* Police de caractère */ 
+     border-bottom: 2px solid #ddd; /* Ligne en dessous */ 
+      background-color: black;
 }
+ #enbas{
+  color: white; /* Couleur du texte */ 
+  font-size: 14px; /* Taille de la police */
+   text-align: center; /* Aligner à gauche */
+      font-family: 'Arial', sans-serif; /* Police de caractère */ 
+     border-bottom: 4px solid #ddd; /* Ligne en dessous */ 
+      background-color: black;
+ }
+ .container { width: 50%; /* Ajustez la largeur selon vos besoins */
+   height: auto; 
+   background-color: #f3f3f3; /* Exemple de couleur de fond */ 
+  padding: 20px; /* Exemple de padding */ 
+  border: 1px solid #ccc; /* Exemple de bordure */
+ }
+h2 {
+  color:black;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h4{
+  color:black;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+p {
+  color:black;
+  font-size: 1.2em;
+  margin: 10px 0;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ul {
+  list-style-type: none;
+  padding: 2px;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ 
+ 
+ 
+ 
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
